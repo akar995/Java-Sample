@@ -4,7 +4,7 @@ public class Character {
     private int speed ;
     private int heath;
     private String speciality;
-
+       //hello
     public void setSpeciality(String speciality) {
         this.speciality = speciality;
     }
