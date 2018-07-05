@@ -5,6 +5,7 @@ public class Character {
     private int heath;
     private String speciality;
 
+    //good method naming 
     public void setSpeciality(String speciality) {
         this.speciality = speciality;
     }
@@ -33,11 +34,12 @@ public class Character {
         return speed;
     }
 
-
+        
     void defineStrength(int speed,int health){
         this.setSpeed(speed);
         this.setHeath(health);
     }
+    //overloading method
     void defineStrength(int speed,int health,String speciality){
         defineStrength(speed,health);
         setSpeciality(speciality);
