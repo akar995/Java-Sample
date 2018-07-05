@@ -33,7 +33,7 @@ public class Character {
         return speed;
     }
 
-
+    //good way to naming
     void defineStrength(int speed,int health){
         this.setSpeed(speed);
         this.setHeath(health);
