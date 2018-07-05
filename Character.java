@@ -5,6 +5,7 @@ public class Character {
     private int heath;
     private String speciality;
 
+    //good way to naming method
     public void setSpeciality(String speciality) {
         this.speciality = speciality;
     }
